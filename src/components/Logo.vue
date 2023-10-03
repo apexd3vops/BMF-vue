@@ -1,0 +1,17 @@
+<template>
+  <div
+    class="flex order-first lg:order-none lg:w-1/8 items-center lg:items-center justify-start md:mb-0 bg-transparent ml-3">
+    <img src="../assets/bmf.svg" alt="leaf logo" style="width: 38px; height: 30px;">
+  </div>
+</template>
+  
+<script>
+export default {
+  // You can define props, data, methods, etc. here
+}
+</script>
+  
+<style scoped>
+/* Add your styles here if needed */
+</style>
+  

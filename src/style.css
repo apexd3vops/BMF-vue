@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* font-family: 'Akronim', cursive;
+font-family: 'Krona One', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+body{
+    @apply font-Base;
+}
