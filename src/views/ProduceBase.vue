@@ -1,6 +1,6 @@
 <template>
     <div>
-
+Page for individual produce "/produce/:id?"
     </div>
 </template>
 

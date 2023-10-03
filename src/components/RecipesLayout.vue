@@ -1,6 +1,6 @@
 <template>
     <div>
-        Meals By Name
+Recipes Layout
     </div>
 </template>
 
