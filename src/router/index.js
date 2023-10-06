@@ -6,9 +6,11 @@ import MealsByName from "../views/MealsByName.vue";
 import User from "../views/User.vue";
 import Chat from "../views/Chat.vue";
 import MealsByLetters from "../views/MealsByLetters.vue";
-import DefaultLayout from "../components/DefaultLayout.vue";
-import ProduceLayout from "../components/ProduceLayout.vue";
-import RecipesLayout from "../components/RecipesLayout.vue";
+import DefaultLayout from "../components/layout/DefaultLayout.vue";
+import ProduceLayout from "../components/layout/ProduceLayout.vue";
+import RecipesLayout from "../components/layout/RecipesLayout.vue";
+import Test from "../views/Test.vue";
+
 
 
 const routes = [
@@ -50,6 +52,11 @@ const routes = [
         path: "/chat",
         name: "chat",
         component: Chat,
+      },
+      {
+        path: "/test",
+        name: "test",
+        component: Test,
       },
     ],
   },

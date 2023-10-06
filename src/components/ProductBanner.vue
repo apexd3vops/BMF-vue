@@ -1,6 +1,6 @@
 <template>
     <div class="bg-cover pt-4 bg-bannerImg3 bg-center h-[55vh] flex items-center justify-center">
-        <SearchField />
+        
     </div>
 </template>
 

@@ -1,6 +1,6 @@
 <template>
     <div>
-        <Navbar />
+        <Navbar/>
         <Main>
             <router-view />
         </Main>
@@ -9,8 +9,8 @@
 </template>
 
 <script>
-import EndNote from './EndNote.vue';
-import Navbar from './Navbar.vue';
+import Navbar from '../Navbar.vue';
+import EndNote from '../EndNote.vue';
 
 export default {
     components: { Navbar, EndNote }

@@ -7,7 +7,7 @@
                 <router-link :to="{name: 'about' }" class="text-white p-2 text-center">
                     <h1 class="sm:text-4xl text-20xl font-Akronim hover:text-darkBlue">BuyMoreFoods</h1>
                 </router-link>
-                <div class="flex justify-end items-center text-base">
+                <div class="flex justify-end items-center text-base w-1/5">
                     <!-- TODO: change from to="/..." to ":to="{name: ...}""  -->
                     <router-link to="/search" class=" justify-end pl-2 mr-2 hover:text-green">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">

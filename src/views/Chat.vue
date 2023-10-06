@@ -1,15 +1,14 @@
 <template>
     <div>
-chat
     </div>
 </template>
 
 <script>
-    export default {
-        
-    }
+import MealsSearchResults from '../components/MealsSearchResults.vue';
+
+export default {
+    components: { MealsSearchResults }
+}
 </script>
 
-<style lang="scss" scoped>
-
-</style>
+<style lang="scss" scoped></style>

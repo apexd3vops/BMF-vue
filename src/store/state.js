@@ -1,3 +1,3 @@
 export default {
-    // produce: ["Rice"]
+  searchedMeals: []
 }
