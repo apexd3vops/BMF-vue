@@ -21,8 +21,6 @@ import { computed } from '@vue/reactivity'
 import store from '../store';
 
 export default {
-  components: {
-  },
   setup() {
     const keyword = ref('');
     const meals = computed(() => store.state.searchedMeals)
